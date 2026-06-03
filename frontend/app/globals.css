@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+  body {
+    @apply bg-landed-bg text-landed-ink antialiased;
+  }
+  /* Make sure focus rings are visible (a11y) without being garish */
+  :focus-visible {
+    @apply outline-none ring-2 ring-landed-navy-light ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  /* The pill-shaped button used for suggestion chips on the empty state. */
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-landed-border bg-white px-4 py-2 text-sm text-landed-ink shadow-card transition hover:border-landed-navy-light hover:text-landed-navy-light;
+  }
+}
