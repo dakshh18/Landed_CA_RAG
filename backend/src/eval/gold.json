@@ -1,0 +1,82 @@
+[
+  {
+    "q": "How is a candidate ranked in Express Entry?",
+    "answer_contains": ["Comprehensive Ranking System", "points"],
+    "answerable": true
+  },
+  {
+    "q": "Can I work while waiting for my study permit decision?",
+    "answer_contains": [],
+    "answerable": true
+  },
+  {
+    "q": "What documents prove my identity for an IRCC application?",
+    "answer_contains": ["passport"],
+    "answerable": true
+  },
+  {
+    "q": "Who needs to give biometrics?",
+    "answer_contains": ["biometrics"],
+    "answerable": true
+  },
+  {
+    "q": "What is an Educational Credential Assessment used for?",
+    "answer_contains": ["ECA"],
+    "answerable": true
+  },
+  {
+    "q": "How long is a Post-Graduation Work Permit valid?",
+    "answer_contains": ["length of the program"],
+    "answerable": true
+  },
+  {
+    "q": "What proof of funds is required for a single Express Entry applicant?",
+    "answer_contains": [],
+    "answerable": true
+  },
+  {
+    "q": "What are the six selection factors for the Federal Skilled Worker Program?",
+    "answer_contains": ["selection factors"],
+    "answerable": true
+  },
+  {
+    "q": "What is the Provincial Nominee Program?",
+    "answer_contains": ["nominate", "province"],
+    "answerable": true
+  },
+  {
+    "q": "How do I apply for Canadian citizenship by grant?",
+    "answer_contains": ["application"],
+    "answerable": true
+  },
+  {
+    "q": "When do I need a medical exam for my application?",
+    "answer_contains": ["medical"],
+    "answerable": true
+  },
+  {
+    "q": "What is the minimum CRS score I need to get an invitation?",
+    "answer_contains": [],
+    "answerable": false
+  },
+  {
+    "q": "Will my Express Entry profile be approved?",
+    "answer_contains": [],
+    "answerable": false
+  },
+  {
+    "q": "What is the current mortgage interest rate in Canada?",
+    "answer_contains": [],
+    "answerable": false
+  },
+  {
+    "q": "Can IRCC find me a job in Toronto?",
+    "answer_contains": [],
+    "answerable": false
+  },
+  {
+    "q": "How do I file my Canadian income tax return?",
+    "answer_contains": [],
+    "answerable": false
+  }
+]
