@@ -10,6 +10,11 @@ import { chatRouter } from "./routes/chat";
 
 const app = express();
 
+// Behind Caddy (reverse proxy) in production. Trust the first proxy hop so
+// req.ip and express-rate-limit read the real client IP from X-Forwarded-For
+// instead of the proxy's address.
+app.set("trust proxy", 1);
+
 // --- Security & basics ------------------------------------------------------
 app.use(helmet());
 app.use(cors({ origin: env.CORS_ORIGIN, credentials: true }));
