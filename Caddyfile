@@ -1,0 +1,7 @@
+# Caddy reads $API_DOMAIN from the environment (passed by docker-compose).
+# It automatically obtains and renews a free TLS certificate for that domain,
+# then forwards traffic to the backend container on its internal port 8080.
+
+{$API_DOMAIN} {
+	reverse_proxy backend:8080
+}

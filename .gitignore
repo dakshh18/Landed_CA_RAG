@@ -1,0 +1,6 @@
+# Root-level secrets & OS noise. The real server .env must NEVER be committed.
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
